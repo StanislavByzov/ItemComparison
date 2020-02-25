@@ -13,10 +13,10 @@
         "dummyProperty9": "",
         "dummyProperty10": "somevalue",
         "dummyProperty11": {
-            "dummySubroperty1": "Dummy Category",
-            "dummySubroperty2": "Dummy Subcategory",
-            "dummySubroperty3": "Dummy Sub-subcategory",
-            "dummySubroperty4": "Dummy Sub-sub-subcategory"
+            "dummySubproperty1": "Dummy Category",
+            "dummySubproperty2": "Dummy Subcategory",
+            "dummySubproperty3": "Dummy Sub-subcategory",
+            "dummySubproperty4": "Dummy Sub-sub-subcategory"
         },
         "formula": {
             "formulaItem": [
@@ -177,10 +177,10 @@
         "dummyProperty9": "",
         "dummyProperty10": "somevalue",
         "dummyProperty11": {
-            "dummySubroperty1": "Dummy Category",
-            "dummySubroperty2": "Dummy Subcategory",
-            "dummySubroperty3": "Dummy Sub-subcategory",
-            "dummySubroperty4": "Dummy Sub-sub-subcategory"
+            "dummySubproperty1": "Dummy Category",
+            "dummySubproperty2": "Dummy Subcategory",
+            "dummySubproperty3": "Dummy Sub-subcategory",
+            "dummySubproperty4": "Dummy Sub-sub-subcategory"
         },
         "formula": {
             "formulaItem": [
@@ -341,10 +341,10 @@
         "dummyProperty9": "",
         "dummyProperty10": "somevalue",
         "dummyProperty11": {
-            "dummySubroperty1": "Dummy Category",
-            "dummySubroperty2": "Dummy Subcategory",
-            "dummySubroperty3": "Dummy Sub-subcategory",
-            "dummySubroperty4": "Dummy Sub-sub-subcategory"
+            "dummySubproperty1": "Dummy Category",
+            "dummySubproperty2": "Dummy Subcategory",
+            "dummySubproperty3": "Dummy Sub-subcategory",
+            "dummySubproperty4": "Dummy Sub-sub-subcategory"
         },
         "formula": {
             "formulaItem": [
@@ -505,10 +505,10 @@
         "dummyProperty9": "",
         "dummyProperty10": "somevalue",
         "dummyProperty11": {
-            "dummySubroperty1": "Dummy Category",
-            "dummySubroperty2": "Dummy Subcategory",
-            "dummySubroperty3": "Dummy Sub-subcategory",
-            "dummySubroperty4": "Dummy Sub-sub-subcategory"
+            "dummySubproperty1": "Dummy Category",
+            "dummySubproperty2": "Dummy Subcategory",
+            "dummySubproperty3": "Dummy Sub-subcategory",
+            "dummySubproperty4": "Dummy Sub-sub-subcategory"
         },
         "formula": {
             "formulaItem": [

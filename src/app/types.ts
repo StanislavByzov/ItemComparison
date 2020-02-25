@@ -6,19 +6,19 @@ export interface Button {
 
 export interface Item {
     id: string,
-    Alternate: string,
-    Version: string,
-    Status: string,
-    AuthorizationGroup: string,
-    PlantCode: string,
-    ValidFrom: string,
-    ValidTo: string,
     description: string,
-    Type: string,
-    ValidityArea: string,
-    SpecGroup: string,
-    CharacteristicValues: TFC,
-    formula: formulaItem
+    dummyProperty1: string,
+    dummyProperty2: string,
+    dummyProperty3: string,
+    dummyProperty4: string,
+    dummyProperty5: string,
+    dummyProperty6: string,
+    dummyProperty7: string,
+    dummyProperty8: string,
+    dummyProperty9: string,
+    dummyProperty10: string,
+    dummyProperty11: DummyProperty,
+    formula: FormulaItem
 }
 
 export class InvalidItem {
@@ -29,26 +29,26 @@ export class InvalidItem {
     }
 }
 
-export interface TFC {
-    formulationOwnerCategory: string,
-    formulationType: string,
-    formulationClass: string,
-    formulationSubClass: string
+export interface DummyProperty {
+    dummySubproperty1: string,
+    dummySubproperty2: string,
+    dummySubproperty3: string,
+    dummySubproperty4: string
 }
 
-export interface formulaItem {
+export interface FormulaItem {
     formulaItem: Ingredient[]
 }
 
 export interface Ingredient {
-    ItemNumber: string,
-    ItemType: string,
+    dummyIngredientProperty1: string,
+    dummyIngredientProperty2: string,
     id: string,
     description: string,
-    ItemMaterial: string,
-    ManualPrice: string,
-    ValidityArea: string,
-    BalancingIngredient: boolean | string,
+    dummyIngredientProperty3: string,
+    dummyIngredientProperty4: string,
+    dummyIngredientProperty5: string,
+    dummyIngredientProperty6: boolean | string,
     mass: {
         kilograms: string,
         percentage: string
