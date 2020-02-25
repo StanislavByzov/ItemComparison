@@ -1,0 +1,86 @@
+table {
+    margin: 10px;
+    width: calc(100% - 20px);
+    table-layout: fixed;
+}
+
+thead {
+    background-image: linear-gradient(to right, rgb(205, 70, 142), rgb(242, 117, 116));
+    color: white;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+th {
+    height: 40px;
+}
+
+.table-title {
+    margin-left: 20px;
+}
+
+.ingredients-column {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 17rem;
+}
+
+td span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+tr {
+    border-top: 1px solid lightgrey;
+}
+
+tr.total-row {
+    border-top: 1px solid grey;
+}
+
+.total-row .ingredients-column span {
+    font-weight: bold;
+}
+
+.comparison-column {
+    border-left: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+}
+
+.comparator-column,
+.comparison-value {
+    border-left: 1px solid lightgrey;
+}
+
+.comparison-result {
+    background-color: rgb(242, 242, 242);
+    border-right: 1px solid lightgrey;
+}
+
+.no-match,
+.equal,
+.more,
+.less {
+    font-weight: bold;
+}
+
+.no-match {
+    color: black;
+}
+
+.equal {
+    color: green;
+}
+
+.more {
+    color: blue;
+}
+
+.less {
+    color: red;
+}

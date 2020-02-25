@@ -1,0 +1,35 @@
+:host {
+    width: 100%;
+    text-align: center;
+}
+
+.row-start {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+
+.select-label {
+    font: 1.5rem Roboto;
+    font-style: normal;
+}
+
+.select-wrapper {
+    padding: 0 10px 0 10px;
+}
+
+.trigger {
+    cursor: pointer;
+}
+
+.trigger span {
+    text-decoration: underline;
+    color: blue;
+}
+
+.trigger i {
+    color: blue;
+    font-size: 1.5rem;
+}

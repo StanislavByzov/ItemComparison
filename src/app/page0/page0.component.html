@@ -1,0 +1,40 @@
+<div class="row-start" [formGroup]="form">
+    <span class="select-label">Select the Comparator Item:</span>
+    <mat-form-field class="select-wrapper">
+        <mat-label>Comparator Item</mat-label>
+        <mat-select [formControlName]="'comparator'" #comparator>
+            <mat-option *ngFor="let item of items | validItems:true | async" [value]="item.id">
+                {{item.description}}
+            </mat-option>
+        </mat-select>
+    </mat-form-field>
+    <div>
+        <p *ngFor="let item of items | validItems:false | async">{{item.DocumentTitle}} is not a valid Item</p>
+    </div>
+</div>
+<div *ngIf="mode === 1">
+    <div class="row-start trigger" (click)="switchMode(2)">
+        <span class="icon-simple">switch to chart view</span>
+        <i class="material-icons icon-simple">
+            sync_alt
+        </i>
+        <i class="material-icons icon-simple">
+            bar_chart
+        </i>
+    </div>
+    <app-table-with-input>
+    </app-table-with-input>
+</div>
+<div *ngIf="mode === 2">
+    <div class="row-start trigger" (click)="switchMode(1)">
+        <span>switch to table view</span>
+        <i class="material-icons">
+            sync_alt
+        </i>
+        <i class="material-icons">
+            view_list
+        </i>
+    </div>
+    <app-chart-with-input>
+    </app-chart-with-input>
+</div>

@@ -1,0 +1,46 @@
+<div *ngIf="comparatorItem && itemsToCompare && itemsToCompare.length > 0">
+    <p aling="left" class="table-title">Comparator Item: {{comparatorItem.description}}</p>
+    <table>
+        <thead>
+            <th class="ingredients-column"><span>Ingredients</span></th>
+            <th class="comparator-column"><span>Comparator Item (%w/w)</span></th>
+            <th class="comparison-column" colspan="2" *ngFor="let item of itemsToCompare">
+                <span>{{item.description}}</span>
+            </th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let ingredient of ingredientsList">
+                <td class="ingredients-column"><span>{{simplifiedIngredients[ingredient].description}}</span></td>
+                <td class="comparator-column"><span>{{comparatorItem[ingredient] || 0}}</span></td>
+                <ng-container *ngFor="let item of itemsToCompare">
+                    <td class="comparison-value"><span>{{item[ingredient] || 0}}</span></td>
+                    <td class="comparison-result">
+                        <span *ngIf="(!+comparatorItem[ingredient] || !+item[ingredient]); else elseBlock;"
+                            class="no-match">No match</span>
+                        <ng-template #elseBlock>
+                            <span *ngIf="+comparatorItem[ingredient] === +item[ingredient]; else elseBlock1"
+                                class="equal">Equal</span>
+                        </ng-template>
+                        <ng-template #elseBlock1>
+                            <span *ngIf="+comparatorItem[ingredient] > +item[ingredient]; else elseBlock2"
+                                class="less">{{ +comparatorItem[ingredient] - +item[ingredient] | number:'1.0-5'}}%
+                                less</span>
+                        </ng-template>
+                        <ng-template #elseBlock2>
+                            <span class="more">{{ +item[ingredient] - +comparatorItem[ingredient] | number:'1.0-5'}}%
+                                more</span>
+                        </ng-template>
+                    </td>
+                </ng-container>
+            </tr>
+            <tr class="total-row">
+                <td class="ingredients-column"><span>Total</span></td>
+                <td class="comparator-column"><span>100</span></td>
+                <ng-container *ngFor="let item of itemsToCompare">
+                    <td class="comparison-value"><span>100</span></td>
+                    <td class="comparison-result"><span></span></td>
+                </ng-container>
+            </tr>
+        </tbody>
+    </table>
+</div>

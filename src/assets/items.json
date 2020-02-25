@@ -1,0 +1,658 @@
+[
+    {
+        "id": "200000223289",
+        "dummyProperty1": "001",
+        "dummyProperty2": "000",
+        "dummyProperty3": "750",
+        "dummyProperty4": "abcd",
+        "dummyProperty5": "",
+        "dummyProperty6": "12345",
+        "dummyProperty7": "23456",
+        "description": "CHERRY MIX",
+        "dummyProperty8": "groupname",
+        "dummyProperty9": "",
+        "dummyProperty10": "somevalue",
+        "dummyProperty11": {
+            "dummySubroperty1": "Dummy Category",
+            "dummySubroperty2": "Dummy Subcategory",
+            "dummySubroperty3": "Dummy Sub-subcategory",
+            "dummySubroperty4": "Dummy Sub-sub-subcategory"
+        },
+        "formula": {
+            "formulaItem": [
+                {
+                    "dummyIngredientProperty1": "0001",
+                    "dummyIngredientProperty2": "XYZ",
+                    "id": "1234567890",
+                    "description": "CHERRY MIX",
+                    "dummyIngredientProperty3": "",
+                    "dummyIngredientProperty4": "0.00 ",
+                    "dummyIngredientProperty5": "",
+                    "dummyIngredientProperty6": false,
+                    "mass": {
+                        "kilograms": "1023.490000",
+                        "percentage": "100"
+                    }
+                },
+                {
+                    "dummyIngredientProperty1": "0001",
+                    "dummyIngredientProperty2": "XYZ",
+                    "id": "12345678901",
+                    "description": "Water",
+                    "dummyIngredientProperty3": "",
+                    "dummyIngredientProperty4": "0.00 ",
+                    "dummyIngredientProperty5": "",
+                    "dummyIngredientProperty6": false,
+                    "mass": {
+                        "Kilograms": "110.000000",
+                        "percentage": "10.747540"
+                    }
+                },
+                {
+                    "dummyIngredientProperty1": "0001",
+                    "dummyIngredientProperty2": "XYZ",
+                    "id": "12345678902",
+                    "description": "Citrus",
+                    "dummyIngredientProperty3": "",
+                    "dummyIngredientProperty4": "0.00 ",
+                    "dummyIngredientProperty5": "",
+                    "dummyIngredientProperty6": false,
+                    "mass": {
+                        "Kilograms": "9.200000",
+                        "percentage": "0.898885"
+                    }
+                },
+                {
+                    "dummyIngredientProperty1": "0001",
+                    "dummyIngredientProperty2": "XYZ",
+                    "id": "12345678903",
+                    "description": "Puree",
+                    "dummyIngredientProperty3": "",
+                    "dummyIngredientProperty4": "0.00 ",
+                    "dummyIngredientProperty5": "",
+                    "dummyIngredientProperty6": false,
+                    "mass": {
+                        "Kilograms": "300.000000",
+                        "percentage": "29.311473"
+                    }
+                },
+                {
+                    "dummyIngredientProperty1": "0001",
+                    "dummyIngredientProperty2": "XYZ",
+                    "id": "12345678904",
+                    "description": "Sorbate",
+                    "dummyIngredientProperty3": "",
+                    "dummyIngredientProperty4": "0.00 ",
+                    "dummyIngredientProperty5": "",
+                    "dummyIngredientProperty6": false,
+                    "mass": {
+                        "Kilograms": "0.650000",
+                        "percentage": "0.063508"
+                    }
+                },
+                {
+                    "dummyIngredientProperty1": "0001",
+                    "dummyIngredientProperty2": "XYZ",
+                    "id": "12345678905",
+                    "description": "Sugar",
+                    "dummyIngredientProperty3": "",
+                    "dummyIngredientProperty4": "0.00 ",
+                    "dummyIngredientProperty5": "",
+                    "dummyIngredientProperty6": false,
+                    "mass": {
+                        "Kilograms": "595.000000",
+                        "percentage": "58.134422"
+                    }
+                },
+                {
+                    "dummyIngredientProperty1": "0001",
+                    "dummyIngredientProperty2": "XYZ",
+                    "id": "12345678906",
+                    "description": "Nitrate",
+                    "dummyIngredientProperty3": "",
+                    "dummyIngredientProperty4": "0.00 ",
+                    "dummyIngredientProperty5": "",
+                    "dummyIngredientProperty6": false,
+                    "mass": {
+                        "Kilograms": "0.040000",
+                        "percentage": "0.003908"
+                    }
+                },
+                {
+                    "dummyIngredientProperty1": "0001",
+                    "dummyIngredientProperty2": "XYZ",
+                    "id": "12345678907",
+                    "description": "Citric acid",
+                    "dummyIngredientProperty3": "",
+                    "dummyIngredientProperty4": "0.00 ",
+                    "dummyIngredientProperty5": "",
+                    "dummyIngredientProperty6": false,
+                    "mass": {
+                        "Kilograms": "6.000000",
+                        "percentage": "0.586229"
+                    }
+                },
+                {
+                    "dummyIngredientProperty1": "0001",
+                    "dummyIngredientProperty2": "XYZ",
+                    "id": "12345678908",
+                    "description": "Flavouring",
+                    "dummyIngredientProperty3": "",
+                    "dummyIngredientProperty4": "0.00 ",
+                    "dummyIngredientProperty5": "",
+                    "dummyIngredientProperty6": false,
+                    "mass": {
+                        "Kilograms": "0.100000",
+                        "percentage": "0.009770"
+                    }
+                },
+                {
+                    "dummyIngredientProperty1": "0001",
+                    "dummyIngredientProperty2": "XYZ",
+                    "id": "12345678909",
+                    "description": "Pectin",
+                    "dummyIngredientProperty3": "",
+                    "dummyIngredientProperty4": "0.00 ",
+                    "dummyIngredientProperty5": "",
+                    "dummyIngredientProperty6": false,
+                    "mass": {
+                        "Kilograms": "2.500000",
+                        "percentage": "0.244262"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "id": "200000223288",
+        "dummyProperty1": "002",
+        "dummyProperty2": "000",
+        "dummyProperty3": "750",
+        "dummyProperty4": "abcd",
+        "dummyProperty5": "",
+        "dummyProperty6": "12345",
+        "dummyProperty7": "23456",
+        "description": "RASPBERRY MIX",
+        "dummyProperty8": "groupname",
+        "dummyProperty9": "",
+        "dummyProperty10": "somevalue",
+        "dummyProperty11": {
+            "dummySubroperty1": "Dummy Category",
+            "dummySubroperty2": "Dummy Subcategory",
+            "dummySubroperty3": "Dummy Sub-subcategory",
+            "dummySubroperty4": "Dummy Sub-sub-subcategory"
+        },
+        "formula": {
+            "formulaItem": [
+                {
+                    "dummyIngredientProperty1": "0002",
+                    "dummyIngredientProperty2": "XYZ",
+                    "id": "1234567891",
+                    "description": "RASPBERRY MIX",
+                    "dummyIngredientProperty3": "",
+                    "dummyIngredientProperty4": "0.00 ",
+                    "dummyIngredientProperty5": "",
+                    "dummyIngredientProperty6": false,
+                    "mass": {
+                        "kilograms": "1023.490000",
+                        "percentage": "100"
+                    }
+                },
+                {
+                    "dummyIngredientProperty1": "0002",
+                    "dummyIngredientProperty2": "XYZ",
+                    "id": "12345678901",
+                    "description": "Water",
+                    "dummyIngredientProperty3": "",
+                    "dummyIngredientProperty4": "0.00 ",
+                    "dummyIngredientProperty5": "",
+                    "dummyIngredientProperty6": false,
+                    "mass": {
+                        "Kilograms": "110.000000",
+                        "percentage": "14.747540"
+                    }
+                },
+                {
+                    "dummyIngredientProperty1": "0002",
+                    "dummyIngredientProperty2": "XYZ",
+                    "id": "12345678902",
+                    "description": "Citrus",
+                    "dummyIngredientProperty3": "",
+                    "dummyIngredientProperty4": "0.00 ",
+                    "dummyIngredientProperty5": "",
+                    "dummyIngredientProperty6": false,
+                    "mass": {
+                        "Kilograms": "9.200000",
+                        "percentage": "0.898885"
+                    }
+                },
+                {
+                    "dummyIngredientProperty1": "0002",
+                    "dummyIngredientProperty2": "XYZ",
+                    "id": "12345678903",
+                    "description": "Puree",
+                    "dummyIngredientProperty3": "",
+                    "dummyIngredientProperty4": "0.00 ",
+                    "dummyIngredientProperty5": "",
+                    "dummyIngredientProperty6": false,
+                    "mass": {
+                        "Kilograms": "300.000000",
+                        "percentage": "23.311473"
+                    }
+                },
+                {
+                    "dummyIngredientProperty1": "0002",
+                    "dummyIngredientProperty2": "XYZ",
+                    "id": "12345678904",
+                    "description": "Sorbate",
+                    "dummyIngredientProperty3": "",
+                    "dummyIngredientProperty4": "0.00 ",
+                    "dummyIngredientProperty5": "",
+                    "dummyIngredientProperty6": false,
+                    "mass": {
+                        "Kilograms": "0.650000",
+                        "percentage": "0.013508"
+                    }
+                },
+                {
+                    "dummyIngredientProperty1": "0002",
+                    "dummyIngredientProperty2": "XYZ",
+                    "id": "12345678905",
+                    "description": "Sugar",
+                    "dummyIngredientProperty3": "",
+                    "dummyIngredientProperty4": "0.00 ",
+                    "dummyIngredientProperty5": "",
+                    "dummyIngredientProperty6": false,
+                    "mass": {
+                        "Kilograms": "595.000000",
+                        "percentage": "58.134422"
+                    }
+                },
+                {
+                    "dummyIngredientProperty1": "0002",
+                    "dummyIngredientProperty2": "XYZ",
+                    "id": "12345678906",
+                    "description": "Nitrate",
+                    "dummyIngredientProperty3": "",
+                    "dummyIngredientProperty4": "0.00 ",
+                    "dummyIngredientProperty5": "",
+                    "dummyIngredientProperty6": false,
+                    "mass": {
+                        "Kilograms": "0.040000",
+                        "percentage": "1.003908"
+                    }
+                },
+                {
+                    "dummyIngredientProperty1": "0002",
+                    "dummyIngredientProperty2": "XYZ",
+                    "id": "12345678907",
+                    "description": "Citric acid",
+                    "dummyIngredientProperty3": "",
+                    "dummyIngredientProperty4": "0.00 ",
+                    "dummyIngredientProperty5": "",
+                    "dummyIngredientProperty6": false,
+                    "mass": {
+                        "Kilograms": "6.000000",
+                        "percentage": "0.586229"
+                    }
+                },
+                {
+                    "dummyIngredientProperty1": "0002",
+                    "dummyIngredientProperty2": "XYZ",
+                    "id": "12345678908",
+                    "description": "Flavouring",
+                    "dummyIngredientProperty3": "",
+                    "dummyIngredientProperty4": "0.00 ",
+                    "dummyIngredientProperty5": "",
+                    "dummyIngredientProperty6": false,
+                    "mass": {
+                        "Kilograms": "0.100000",
+                        "percentage": "0.004770"
+                    }
+                },
+                {
+                    "dummyIngredientProperty1": "0002",
+                    "dummyIngredientProperty2": "XYZ",
+                    "id": "12345678909",
+                    "description": "Pectin",
+                    "dummyIngredientProperty3": "",
+                    "dummyIngredientProperty4": "0.00 ",
+                    "dummyIngredientProperty5": "",
+                    "dummyIngredientProperty6": false,
+                    "mass": {
+                        "Kilograms": "2.500000",
+                        "percentage": "0.244262"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "id": "200000223287",
+        "dummyProperty1": "003",
+        "dummyProperty2": "000",
+        "dummyProperty3": "750",
+        "dummyProperty4": "abcd",
+        "dummyProperty5": "",
+        "dummyProperty6": "12345",
+        "dummyProperty7": "23456",
+        "description": "STRAWBERRY MIX",
+        "dummyProperty8": "groupname",
+        "dummyProperty9": "",
+        "dummyProperty10": "somevalue",
+        "dummyProperty11": {
+            "dummySubroperty1": "Dummy Category",
+            "dummySubroperty2": "Dummy Subcategory",
+            "dummySubroperty3": "Dummy Sub-subcategory",
+            "dummySubroperty4": "Dummy Sub-sub-subcategory"
+        },
+        "formula": {
+            "formulaItem": [
+                {
+                    "dummyIngredientProperty1": "0003",
+                    "dummyIngredientProperty2": "XYZ",
+                    "id": "1234567892",
+                    "description": "STRAWBERRY MIX",
+                    "dummyIngredientProperty3": "",
+                    "dummyIngredientProperty4": "0.00 ",
+                    "dummyIngredientProperty5": "",
+                    "dummyIngredientProperty6": false,
+                    "mass": {
+                        "kilograms": "1023.490000",
+                        "percentage": "100"
+                    }
+                },
+                {
+                    "dummyIngredientProperty1": "0003",
+                    "dummyIngredientProperty2": "XYZ",
+                    "id": "12345678901",
+                    "description": "Water",
+                    "dummyIngredientProperty3": "",
+                    "dummyIngredientProperty4": "0.00 ",
+                    "dummyIngredientProperty5": "",
+                    "dummyIngredientProperty6": false,
+                    "mass": {
+                        "Kilograms": "110.000000",
+                        "percentage": "7.747540"
+                    }
+                },
+                {
+                    "dummyIngredientProperty1": "0003",
+                    "dummyIngredientProperty2": "XYZ",
+                    "id": "12345678902",
+                    "description": "Citrus",
+                    "dummyIngredientProperty3": "",
+                    "dummyIngredientProperty4": "0.00 ",
+                    "dummyIngredientProperty5": "",
+                    "dummyIngredientProperty6": false,
+                    "mass": {
+                        "Kilograms": "9.200000",
+                        "percentage": "0.898885"
+                    }
+                },
+                {
+                    "dummyIngredientProperty1": "0003",
+                    "dummyIngredientProperty2": "XYZ",
+                    "id": "12345678903",
+                    "description": "Puree",
+                    "dummyIngredientProperty3": "",
+                    "dummyIngredientProperty4": "0.00 ",
+                    "dummyIngredientProperty5": "",
+                    "dummyIngredientProperty6": false,
+                    "mass": {
+                        "Kilograms": "300.000000",
+                        "percentage": "35.311473"
+                    }
+                },
+                {
+                    "dummyIngredientProperty1": "0003",
+                    "dummyIngredientProperty2": "XYZ",
+                    "id": "12345678904",
+                    "description": "Sorbate",
+                    "dummyIngredientProperty3": "",
+                    "dummyIngredientProperty4": "0.00 ",
+                    "dummyIngredientProperty5": "",
+                    "dummyIngredientProperty6": false,
+                    "mass": {
+                        "Kilograms": "0.650000",
+                        "percentage": "2.063508"
+                    }
+                },
+                {
+                    "dummyIngredientProperty1": "0003",
+                    "dummyIngredientProperty2": "XYZ",
+                    "id": "12345678905",
+                    "description": "Sugar",
+                    "dummyIngredientProperty3": "",
+                    "dummyIngredientProperty4": "0.00 ",
+                    "dummyIngredientProperty5": "",
+                    "dummyIngredientProperty6": false,
+                    "mass": {
+                        "Kilograms": "595.000000",
+                        "percentage": "37.134422"
+                    }
+                },
+                {
+                    "dummyIngredientProperty1": "0003",
+                    "dummyIngredientProperty2": "XYZ",
+                    "id": "12345678906",
+                    "description": "Nitrate",
+                    "dummyIngredientProperty3": "",
+                    "dummyIngredientProperty4": "0.00 ",
+                    "dummyIngredientProperty5": "",
+                    "dummyIngredientProperty6": false,
+                    "mass": {
+                        "Kilograms": "0.040000",
+                        "percentage": "0.003908"
+                    }
+                },
+                {
+                    "dummyIngredientProperty1": "0003",
+                    "dummyIngredientProperty2": "XYZ",
+                    "id": "12345678907",
+                    "description": "Citric acid",
+                    "dummyIngredientProperty3": "",
+                    "dummyIngredientProperty4": "0.00 ",
+                    "dummyIngredientProperty5": "",
+                    "dummyIngredientProperty6": false,
+                    "mass": {
+                        "Kilograms": "6.000000",
+                        "percentage": "1.586229"
+                    }
+                },
+                {
+                    "dummyIngredientProperty1": "0003",
+                    "dummyIngredientProperty2": "XYZ",
+                    "id": "12345678908",
+                    "description": "Flavouring",
+                    "dummyIngredientProperty3": "",
+                    "dummyIngredientProperty4": "0.00 ",
+                    "dummyIngredientProperty5": "",
+                    "dummyIngredientProperty6": false,
+                    "mass": {
+                        "Kilograms": "0.100000",
+                        "percentage": "0.009770"
+                    }
+                },
+                {
+                    "dummyIngredientProperty1": "0003",
+                    "dummyIngredientProperty2": "XYZ",
+                    "id": "12345678909",
+                    "description": "Pectin",
+                    "dummyIngredientProperty3": "",
+                    "dummyIngredientProperty4": "0.00 ",
+                    "dummyIngredientProperty5": "",
+                    "dummyIngredientProperty6": false,
+                    "mass": {
+                        "Kilograms": "2.500000",
+                        "percentage": "0.244262"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "id": "200000223286",
+        "dummyProperty1": "004",
+        "dummyProperty2": "000",
+        "dummyProperty3": "750",
+        "dummyProperty4": "abcd",
+        "dummyProperty5": "",
+        "dummyProperty6": "12345",
+        "dummyProperty7": "23456",
+        "description": "BLUEBERRY MIX",
+        "dummyProperty8": "groupname",
+        "dummyProperty9": "",
+        "dummyProperty10": "somevalue",
+        "dummyProperty11": {
+            "dummySubroperty1": "Dummy Category",
+            "dummySubroperty2": "Dummy Subcategory",
+            "dummySubroperty3": "Dummy Sub-subcategory",
+            "dummySubroperty4": "Dummy Sub-sub-subcategory"
+        },
+        "formula": {
+            "formulaItem": [
+                {
+                    "dummyIngredientProperty1": "0004",
+                    "dummyIngredientProperty2": "XYZ",
+                    "id": "1234567893",
+                    "description": "BLUEBERRY MIX",
+                    "dummyIngredientProperty3": "",
+                    "dummyIngredientProperty4": "0.00 ",
+                    "dummyIngredientProperty5": "",
+                    "dummyIngredientProperty6": false,
+                    "mass": {
+                        "kilograms": "1023.490000",
+                        "percentage": "100"
+                    }
+                },
+                {
+                    "dummyIngredientProperty1": "0004",
+                    "dummyIngredientProperty2": "XYZ",
+                    "id": "12345678901",
+                    "description": "Water",
+                    "dummyIngredientProperty3": "",
+                    "dummyIngredientProperty4": "0.00 ",
+                    "dummyIngredientProperty5": "",
+                    "dummyIngredientProperty6": false,
+                    "mass": {
+                        "Kilograms": "110.000000",
+                        "percentage": "25.747540"
+                    }
+                },
+                {
+                    "dummyIngredientProperty1": "0004",
+                    "dummyIngredientProperty2": "XYZ",
+                    "id": "12345678902",
+                    "description": "Citrus",
+                    "dummyIngredientProperty3": "",
+                    "dummyIngredientProperty4": "0.00 ",
+                    "dummyIngredientProperty5": "",
+                    "dummyIngredientProperty6": false,
+                    "mass": {
+                        "Kilograms": "9.200000",
+                        "percentage": "12.898885"
+                    }
+                },
+                {
+                    "dummyIngredientProperty1": "0004",
+                    "dummyIngredientProperty2": "XYZ",
+                    "id": "12345678903",
+                    "description": "Puree",
+                    "dummyIngredientProperty3": "",
+                    "dummyIngredientProperty4": "0.00 ",
+                    "dummyIngredientProperty5": "",
+                    "dummyIngredientProperty6": false,
+                    "mass": {
+                        "Kilograms": "300.000000",
+                        "percentage": "20.311473"
+                    }
+                },
+                {
+                    "dummyIngredientProperty1": "0004",
+                    "dummyIngredientProperty2": "XYZ",
+                    "id": "12345678904",
+                    "description": "Sorbate",
+                    "dummyIngredientProperty3": "",
+                    "dummyIngredientProperty4": "0.00 ",
+                    "dummyIngredientProperty5": "",
+                    "dummyIngredientProperty6": false,
+                    "mass": {
+                        "Kilograms": "0.650000",
+                        "percentage": "0.000008"
+                    }
+                },
+                {
+                    "dummyIngredientProperty1": "0004",
+                    "dummyIngredientProperty2": "XYZ",
+                    "id": "12345678905",
+                    "description": "Sugar",
+                    "dummyIngredientProperty3": "",
+                    "dummyIngredientProperty4": "0.00 ",
+                    "dummyIngredientProperty5": "",
+                    "dummyIngredientProperty6": false,
+                    "mass": {
+                        "Kilograms": "595.000000",
+                        "percentage": "10.134422"
+                    }
+                },
+                {
+                    "dummyIngredientProperty1": "0004",
+                    "dummyIngredientProperty2": "XYZ",
+                    "id": "12345678906",
+                    "description": "Nitrate",
+                    "dummyIngredientProperty3": "",
+                    "dummyIngredientProperty4": "0.00 ",
+                    "dummyIngredientProperty5": "",
+                    "dummyIngredientProperty6": false,
+                    "mass": {
+                        "Kilograms": "0.040000",
+                        "percentage": "0.103908"
+                    }
+                },
+                {
+                    "dummyIngredientProperty1": "0004",
+                    "dummyIngredientProperty2": "XYZ",
+                    "id": "12345678907",
+                    "description": "Citric acid",
+                    "dummyIngredientProperty3": "",
+                    "dummyIngredientProperty4": "0.00 ",
+                    "dummyIngredientProperty5": "",
+                    "dummyIngredientProperty6": false,
+                    "mass": {
+                        "Kilograms": "6.000000",
+                        "percentage": "10.586229"
+                    }
+                },
+                {
+                    "dummyIngredientProperty1": "0004",
+                    "dummyIngredientProperty2": "XYZ",
+                    "id": "12345678908",
+                    "description": "Flavouring",
+                    "dummyIngredientProperty3": "",
+                    "dummyIngredientProperty4": "0.00 ",
+                    "dummyIngredientProperty5": "",
+                    "dummyIngredientProperty6": false,
+                    "mass": {
+                        "Kilograms": "0.100000",
+                        "percentage": "10.009770"
+                    }
+                },
+                {
+                    "dummyIngredientProperty1": "0004",
+                    "dummyIngredientProperty2": "XYZ",
+                    "id": "12345678909",
+                    "description": "Pectin",
+                    "dummyIngredientProperty3": "",
+                    "dummyIngredientProperty4": "0.00 ",
+                    "dummyIngredientProperty5": "",
+                    "dummyIngredientProperty6": false,
+                    "mass": {
+                        "Kilograms": "2.500000",
+                        "percentage": "0.244262"
+                    }
+                }
+            ]
+        }
+    }
+]

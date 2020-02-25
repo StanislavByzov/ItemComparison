@@ -1,0 +1,11 @@
+<footer>
+  <hr class="no-upper-margin">
+  <p class="button-bar">
+    <button type="button" class="btn btn-primary" *ngIf="dataService.buttons.back"
+      (click)="action(dataService.buttons.back)"> Back</button>
+    <button type="button" class="btn btn-primary" *ngIf="dataService.buttons.update"
+      (click)="action(dataService.buttons.update)" [disabled]="!dataService.buttons.valid">Update</button>
+    <button type="button" class="btn btn-primary" *ngIf="dataService.buttons.next"
+      (click)="action(dataService.buttons.next)" [disabled]="!dataService.buttons.valid">Next </button> </p>
+  {{dataService.buttons.valid}}
+</footer>
